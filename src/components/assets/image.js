@@ -1,12 +1,17 @@
-import firsLODR from './011.gif'
-import secondLORD from './02Image.png'
-import thirdLORD from './03Image.png'
-import fourth from './04Image.png'
+import React from 'react'
 
-export default  [
-    {"image":firsLODR},
-    {"image":secondLORD},
-    {"image":thirdLORD},
-    {"image":fourth}
-    
-]
+import firstC from './01R.png'
+import secondC from './02A.png'
+import thirdC from './03H.png'
+
+
+class Image extends React.Component {
+    constructor(first, second, third) {
+        this.first = firstC;
+        this.second = secondC;
+        this.third = thirdC;
+        super();
+    }
+}
+
+export default Image

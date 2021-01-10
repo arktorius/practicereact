@@ -9,7 +9,7 @@ class Header extends React.Component{
 
 
     render(){
-        return<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="position-static">
+        return<Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" className="fixed-top">
         <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

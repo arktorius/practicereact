@@ -1,6 +1,7 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap';
 
+import Image from '../assets/image'
 
 import imageTest from '../assets/011.gif'
 import Emer from '../prompt/emer'
@@ -14,9 +15,9 @@ class Carusel extends React.Component {
         return <Carousel>
             <Carousel.Item>
                 <img
-                    className="d-block w-50 ml-auto mr-auto"
-
-                    src={imageTest}
+                    className="d-block  ml-auto mr-auto"
+                    height="400px"
+                    src={Image.first}
                     alt="First slide"
                 />
                 <Carousel.Caption>
@@ -27,7 +28,8 @@ class Carusel extends React.Component {
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                    className="d-block w-50 ml-auto mr-auto"
+                    className="d-block ml-auto mr-auto"
+                    height="400px"
 
                     src={imageTest}
                     alt="Third slide"
@@ -40,7 +42,9 @@ class Carusel extends React.Component {
             </Carousel.Item>
             <Carousel.Item>
                 <img
-                    className="d-block w-50 ml-auto mr-auto"
+                    className="d-block ml-auto mr-auto"
+                    height="400px"
+
                     src={imageTest}
                     alt="Third slide"
                 />

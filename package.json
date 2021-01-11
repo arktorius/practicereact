@@ -2,7 +2,7 @@
   "name": "practicereact",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://arktorius.github.io/practicereact",
+  "homepage": "https://arktorius.com",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.8",
     "@testing-library/react": "^11.2.2",
@@ -16,7 +16,7 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "predeploy": "npm run build && echo 'arktroius.com' >./build/CNAME",
+    "predeploy": "npm run build && echo arktroius.com >./build/CNAME",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",

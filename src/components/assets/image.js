@@ -1,12 +1,10 @@
-import firsLODR from './011.gif'
-import secondLORD from './02Image.png'
-import thirdLORD from './03Image.png'
-import fourth from './04Image.png'
+import firstC from './01R.png'
+import secondC from './02A.png'
+import thirdC from './03H.png'
 
-export default  [
-    {"image":firsLODR},
-    {"image":secondLORD},
-    {"image":thirdLORD},
-    {"image":fourth}
-    
-]
+
+export default Image= {
+    img1:firstC,
+    img2:secondC,
+    img3:thirdC
+}

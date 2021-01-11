@@ -1,7 +1,7 @@
 import React from 'react'
 import { Card, CardDeck } from 'react-bootstrap'
 
-import ringImage from '../assets/01.jfif'
+import ringImage from '../assets/ark.png'
 
 
 class Cards extends React.Component{

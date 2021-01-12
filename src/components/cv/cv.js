@@ -1,0 +1,103 @@
+import React from 'react'
+import { Container, Row, Col } from 'react-bootstrap'
+
+
+import ProfilePicture from '../assets/profile.jpg'
+
+
+class CurriculumVitae extends React.Component {
+
+    render() {
+        return <Container id="cvark" style={{ height: 720, wordWrap: 'break-word', marginTop: 0, padding: 0, color: 'white' }}>
+            <br />
+            <Row style={{ marginTop: 0 }}>
+                <Col sm >
+                    <h3 >Arturo Elmer Prado Romero</h3>
+                    <img
+                        style={{ borderRadius: 150, marginTop: 50 }}
+                        className="d-block ml-auto mr-auto"
+                        height="300px"
+                        src={ProfilePicture}
+                        alt="First slide" />
+
+                    <ul>
+                        <li>lunient@gmail.com</li>
+                        <li>number: +34 722385895</li>
+                        <li>linkedin</li>
+                        <li><image>java</image> <image>js</image><image> css</image></li>
+                    </ul>
+
+
+                </Col>
+                <Col sm><h3>Experiencia</h3>
+
+                    <p>
+                        <ul>
+                            <li><b>SCAE</b> (Sociedad Científica Albert Einstein)
+                        <br/>
+                                <b>(2011-2014)</b><br></br>
+                                <b>Cargo: Profesor Auxiliar</b><br />
+                        Materias de Física, Matemáticas y afines.
+                        Para los niveles de Pre-Universitario y
+                        Universitario.</li>
+                            <br />
+                            <li>
+                                <b>Frikis </b>(2015-2018)<br />
+                                <b>
+                                    Cargo: Informatico</b><br />
+                        -Reparación de ordenadores personales.<br />
+                        -Reparación de Celulares (Móviles).<br />
+                        -Instalación y mantenimiento de cámaras de
+                        seguridad.<br />
+                        -Programación de Arduinos
+                            </li>
+                            <li>
+                                <br />
+                                <b>  PRAUS</b> (2016-2018) <br />
+                                <b>Cargo: Profesor Auxiliar</b> <br />
+                        Materias: Física, Algebra-Aritmética y
+                        Geometría-Trigonometría, para Pre-Universitarios.
+                            </li>
+                        </ul>
+
+
+                    </p>
+
+
+                </Col>
+                <Col sm style={{marginBottom:50}}><h3>Formacion</h3>
+
+                    <p>
+
+                        <ul>
+                            <li>
+                           <b> <a href="https://cibernarium.barcelonactiva.cat/es/itacademy">IT Academy</a></b>
+                      <br/>
+                        <b>(2019-2020)</b>=>
+                        Desarrollo Web Back/End.
+
+                            </li><br/>
+                            <li> <b><a href="https://www.facebook.com/wegtron">WEGTron</a></b> 
+                             <br/>
+                        <b>(2018)</b> =>
+                        Curso Redes Industriales</li>
+                            <li> <b><a href="http://www.umss.edu.bo/">CESA-UMSS </a><br/>
+                            (2011)</b> =>
+                        Linux Básico y Avanzado
+                            </li>
+
+                        </ul>
+
+               
+                </p>
+
+                
+
+                </Col>
+            </Row>
+        </Container>
+    }
+
+}
+
+export default CurriculumVitae

@@ -7,6 +7,8 @@ import Header from './components/header/header'
 import Carusel from './components/carusel/carusel'
 import Cards from './components/card/card'
 import Footer from './components/footer/footer'
+import CurriculumVitae from './components/cv/cv';
+
 
 
 class App extends React.Component {
@@ -19,8 +21,11 @@ class App extends React.Component {
       <Carusel/>
 
       <Cards/>
+      <CurriculumVitae/>
+
       <Footer/>
     </React.Fragment>
+
 
   );
 }

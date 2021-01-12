@@ -3,8 +3,8 @@ import { Carousel } from 'react-bootstrap';
 
 import SpringIamge from '../assets/02S.png'
 import JsImage from '../assets/01E.png'
-import imageTest from '../assets/ark.png'
-import Emer from '../prompt/emer'
+import JavaImage from '../assets/08J.png'
+
 
 
 
@@ -18,12 +18,10 @@ class Carusel extends React.Component {
                     className="d-block  ml-auto mr-auto"
                     height="400px"
                     src={SpringIamge}
-                    alt="First slide"
+                    alt="SpringSlide"
                 />
                 <Carousel.Caption>
-                    <Emer />
-                    <h3>First slide label</h3>
-                    <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                    <h3><a href="https://github.com/arktorius/DicesGame" style={{color:'white'}}>ejemplo</a></h3>
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -32,12 +30,12 @@ class Carusel extends React.Component {
                     height="400px"
 
                     src={JsImage}
-                    alt="Third slide"
+                    alt="JsSlide"
                 />
 
                 <Carousel.Caption>
-                    <h3>Second slide label</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <h3><a href="https://github.com/arktorius/Express-MongoDb-API-REST" style={{color:'white'}}>ejemplo</a></h3>
+
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -45,13 +43,13 @@ class Carusel extends React.Component {
                     className="d-block ml-auto mr-auto"
                     height="400px"
 
-                    src={imageTest}
-                    alt="Third slide"
+                    src={JavaImage}
+                    alt="javaSlide"
                 />
 
                 <Carousel.Caption>
-                    <h3>Third slide label</h3>
-                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                <h3><a href="https://github.com/arktorius/DicesGame" style={{color:'white'}}>ejemplo</a></h3>
+
                 </Carousel.Caption>
             </Carousel.Item>
         </Carousel>

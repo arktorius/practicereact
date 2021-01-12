@@ -3,6 +3,8 @@ import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import LogoT from "../assets/ark.png";
 import * as Scroll from 'react-scroll';
 
+import Emer from '../prompt/emer'
+
 
 
 
@@ -12,7 +14,7 @@ class Header extends React.Component {
 
   render() {
     return <div id="homebar"> 
-    <Navbar  collapseOnSelect expand="lg" bg="dark" variant="dark" className="fixed-top">
+    <Navbar  collapseOnSelect expand="lg" bg="dark" variant="dark" className="fixed-top py-0">
       <Navbar.Brand href="#home">
         <Scroll.Link to="homebar" smooth={true} offset={-50}>
           <img
@@ -27,21 +29,20 @@ class Header extends React.Component {
         <Nav className="mr-auto">
           <Nav.Link href="#features">
             <Scroll.Link to="cvark" smooth={true} offset={0}>
-              Abaut me
+              <h4>C.V.</h4>
               </Scroll.Link>
           </Nav.Link>
-          <Nav.Link href="#pricing">Git-Hub</Nav.Link>
-          <NavDropdown title="code" id="collasible-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">Express</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">Spring</NavDropdown.Item>
+         
+          <NavDropdown title="My-Code" id="collasible-nav-dropdown" style={{fontSize:20}}>
+            <NavDropdown.Item href="https://github.com/arktorius/Express-MongoDb-API-REST">Express</NavDropdown.Item>
+            <NavDropdown.Item href="https://github.com/arktorius/DicesGame">Spring</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="#action/3.4">more</NavDropdown.Item>
+            <NavDropdown.Item href="https://github.com/arktorius">more</NavDropdown.Item>
           </NavDropdown>
         </Nav>
         <Nav>
-          <Nav.Link href="#deets">xxx</Nav.Link>
           <Nav.Link eventKey={2} href="#memes">
-            memes
+          <Emer></Emer>
             </Nav.Link>
         </Nav>
       </Navbar.Collapse>

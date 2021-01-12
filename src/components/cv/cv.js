@@ -71,17 +71,17 @@ class CurriculumVitae extends React.Component {
 
                         <ul>
                             <li>
-                           <b> <a href="https://cibernarium.barcelonactiva.cat/es/itacademy">IT Academy</a></b>
+                           <b> <a href="https://cibernarium.barcelonactiva.cat/es/itacademy" style={{color:'white'}}>IT Academy</a></b>
                       <br/>
                         <b>(2019-2020)</b>=>
                         Desarrollo Web Back/End.
 
                             </li><br/>
-                            <li> <b><a href="https://www.facebook.com/wegtron">WEGTron</a></b> 
+                            <li> <b><a href="https://www.facebook.com/wegtron" style={{color:'white'}}>WEGTron</a></b> 
                              <br/>
                         <b>(2018)</b> =>
                         Curso Redes Industriales</li>
-                            <li> <b><a href="http://www.umss.edu.bo/">CESA-UMSS </a><br/>
+                            <li> <b><a href="http://www.umss.edu.bo/" style={{color:'white'}}>CESA-UMSS </a><br/>
                             (2011)</b> =>
                         Linux Básico y Avanzado
                             </li>

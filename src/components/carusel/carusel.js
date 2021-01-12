@@ -1,7 +1,8 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap';
 
-
+import SpringIamge from '../assets/02S.png'
+import JsImage from '../assets/01E.png'
 import imageTest from '../assets/ark.png'
 import Emer from '../prompt/emer'
 
@@ -16,7 +17,7 @@ class Carusel extends React.Component {
                 <img
                     className="d-block  ml-auto mr-auto"
                     height="400px"
-                    src={imageTest}
+                    src={SpringIamge}
                     alt="First slide"
                 />
                 <Carousel.Caption>
@@ -30,7 +31,7 @@ class Carusel extends React.Component {
                     className="d-block ml-auto mr-auto"
                     height="400px"
 
-                    src={imageTest}
+                    src={JsImage}
                     alt="Third slide"
                 />
 

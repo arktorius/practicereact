@@ -2,6 +2,12 @@ import React from 'react';
 import {Button,Modal} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 
+import imageM1 from '../assets/mermesinformatica/01.png'
+import imageM2 from '../assets/mermesinformatica/02.gif'
+import imageM3 from '../assets/mermesinformatica/03.jpg'
+import imageM4 from '../assets/mermesinformatica/04.jpg'
+
+
 class Emer extends React.Component{
   state={
     abierto: false,
@@ -23,21 +29,58 @@ class Emer extends React.Component{
       <>
       <div className="principal">
         <div className="secundario">
-      <Button color="success" onClick={this.abrirModal}>Mostrar Modal</Button>
+      <Button  onClick={this.abrirModal} className="btn-dark">Memes</Button>
 
       </div></div>
 
       <Modal show={this.state.abierto} style={modalStyles}>
         <Modal.Header>
-          Iniciar Sesión
+          Memes
         </Modal.Header>
-        <Modal.Body>
-         <p>hello</p>
+        <Modal.Body >
+          
+         <img
+         className="d-block  ml-auto mr-auto"
+         width="387px"
+         onClick={this.abrirModal}
+         src={imageM1}
+         alt="kimmeme"
+
+         >
+         </img>
+
+         <img
+         className="d-block  ml-auto mr-auto"
+         width="387px"
+         onClick={this.abrirModal}
+         src={imageM2}
+         alt="pushmeme"
+
+         >
+         </img>
+
+         <img
+         className="d-block  ml-auto mr-auto"
+         width="387px"
+         src={imageM3}
+         onClick={this.abrirModal}
+         alt="homermeme"
+
+         >
+         </img>
+         <img
+         className="d-block  ml-auto mr-auto"
+         width="387px"
+         src={imageM4}
+         onClick={this.abrirModal}
+         alt="meme"
+
+         >
+         </img>
         </Modal.Body>
 
         <Modal.Footer>
-            <Button color="primary">Iniciar Sesión</Button>
-            <Button color="secondary" onClick={this.abrirModal}>Cerrar</Button>
+            <Button className="btn-light" onClick={this.abrirModal}>Cerrar</Button>
         </Modal.Footer>
       </Modal>
       </>

@@ -3,38 +3,56 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 
 import ProfilePicture from '../assets/profile.jpg'
-
+import phoneImage from '../assets/iconos/tel.png'
+import wpImage from '../assets/iconos/wp.png'
+import tImage from '../assets/iconos/tg.png'
+import lImage from '../assets/iconos/link.png'
+import JImage from '../assets/iconos/jaba.png'
+import jsImage from '../assets/iconos/js.png'
+import mongoImage from '../assets/iconos/mongo.png'
+import phpImage from '../assets/iconos/php.jpg'
 
 class CurriculumVitae extends React.Component {
 
     render() {
-        return <Container id="cvark" style={{ height: 720, wordWrap: 'break-word', marginTop: 0, padding: 0, color: 'white' }}>
+        return <Container id="cvark" style={{ height: 720, marginTop: 0, padding: 0, color: 'white' }}>
             <br />
             <Row style={{ marginTop: 0 }}>
-                <Col sm >
-                    <h3 >Arturo Elmer Prado Romero</h3>
+                <Col sm style={{ padding: 40 }}>
+                    <h3 >Arturo Elmer Prado R.</h3>
                     <img
                         style={{ borderRadius: 150, marginTop: 50 }}
                         className="d-block ml-auto mr-auto"
                         height="300px"
                         src={ProfilePicture}
-                        alt="First slide" />
+                        alt="profile photo" />
+                    <br />
 
                     <ul>
                         <li>lunient@gmail.com</li>
-                        <li>number: +34 722385895</li>
-                        <li>linkedin</li>
-                        <li><image>java</image> <image>js</image><image> css</image></li>
-                    </ul>
+                        <li><img src={phoneImage} width={20} />
+                            <img src={wpImage} width={20} />
+                            <img src={tImage} width={20} />
+                         +34 722385895</li>
+                        <li><a href="https://www.linkedin.com/in/arturo-elmer-prado-romero-b80432119/"><img src={lImage} width={20} /> </a>  linkedin</li>
 
+
+                    </ul>
+                    <br/>
+                    <div className="container text-center" >
+                        <img src={jsImage} height={40} className="bg-light" />
+                        <img src={mongoImage} height={40} />
+                        <img src={JImage} height={40} className="bg-light" />
+                        <img src={phpImage} height={40} />
+                    </div>
 
                 </Col>
-                <Col sm><h3>Experiencia</h3>
+                <Col sm style={{ padding: 40 }}><h3>Experiencia </h3>
 
                     <p>
                         <ul>
                             <li><b>SCAE</b> (Sociedad Científica Albert Einstein)
-                        <br/>
+                        <br />
                                 <b>(2011-2014)</b><br></br>
                                 <b>Cargo: Profesor Auxiliar</b><br />
                         Materias de Física, Matemáticas y afines.
@@ -65,33 +83,33 @@ class CurriculumVitae extends React.Component {
 
 
                 </Col>
-                <Col sm style={{marginBottom:50}}><h3>Formacion</h3>
+                <Col sm style={{ marginBottom: 50, padding: 40 }}><h3>Formacion</h3>
 
                     <p>
 
                         <ul>
                             <li>
-                           <b> <a href="https://cibernarium.barcelonactiva.cat/es/itacademy" style={{color:'white'}}>IT Academy</a></b>
-                      <br/>
-                        <b>(2019-2020)</b>=>
+                                <b> <a href="https://cibernarium.barcelonactiva.cat/es/itacademy" style={{ color: 'white' }}>IT Academy</a></b>
+                                <br />
+                                <b>(2019-2020)</b>=>
                         Desarrollo Web Back/End.
 
-                            </li><br/>
-                            <li> <b><a href="https://www.facebook.com/wegtron" style={{color:'white'}}>WEGTron</a></b> 
-                             <br/>
-                        <b>(2018)</b> =>
+                            </li><br />
+                            <li> <b><a href="https://www.facebook.com/wegtron" style={{ color: 'white' }}>WEGTron</a></b>
+                                <br />
+                                <b>(2018)</b> =>
                         Curso Redes Industriales</li>
-                            <li> <b><a href="http://www.umss.edu.bo/" style={{color:'white'}}>CESA-UMSS </a><br/>
+                            <li> <b><a href="http://www.umss.edu.bo/" style={{ color: 'white' }}>CESA-UMSS </a><br />
                             (2011)</b> =>
                         Linux Básico y Avanzado
                             </li>
 
                         </ul>
 
-               
-                </p>
 
-                
+                    </p>
+
+
 
                 </Col>
             </Row>

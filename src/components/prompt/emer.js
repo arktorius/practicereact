@@ -27,17 +27,17 @@ class Emer extends React.Component {
     }
     return (
       <>
-        <div className="principal">
+        <div className="principal ">
           <div className="secundario">
             <Button onClick={this.abrirModal} className="btn-dark">Memes</Button>
 
           </div></div>
 
         <Modal show={this.state.abierto} style={modalStyles}>
-          <Modal.Header>
+          <Modal.Header className="bg-dark text-light">
             Memes
         </Modal.Header>
-          <Modal.Body >
+          <Modal.Body className="bg-dark" >
 
             <img
               className="d-block  ml-auto mr-auto"
@@ -47,7 +47,7 @@ class Emer extends React.Component {
               alt="kimmeme"
 
             >
-            </img>
+            </img> <hr/>
 
             <img
               className="d-block  ml-auto mr-auto"
@@ -57,7 +57,7 @@ class Emer extends React.Component {
               alt="pushmeme"
 
             >
-            </img>
+            </img><hr/>
 
             <img
               className="d-block  ml-auto mr-auto"
@@ -67,7 +67,7 @@ class Emer extends React.Component {
               alt="homermeme"
 
             >
-            </img>
+            </img><hr/>
             <img
               className="d-block  ml-auto mr-auto"
               width="387px"
@@ -79,7 +79,7 @@ class Emer extends React.Component {
             </img>
           </Modal.Body>
 
-          <Modal.Footer>
+          <Modal.Footer className="bg-dark">
             <Button className="btn-light" onClick={this.abrirModal}>Cerrar</Button>
           </Modal.Footer>
         </Modal>

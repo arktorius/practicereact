@@ -25,25 +25,25 @@ class CurriculumVitae extends React.Component {
                         className="d-block ml-auto mr-auto"
                         height="300px"
                         src={ProfilePicture}
-                        alt="profile photo" />
+                        alt="profil" />
                     <br />
 
                     <ul>
                         <li>lunient@gmail.com</li>
-                        <li><img src={phoneImage} width={20} />
-                            <img src={wpImage} width={20} />
-                            <img src={tImage} width={20} />
+                        <li><img src={phoneImage} width={20} alt="profil" />
+                            <img src={wpImage} width={20} alt="profil" />
+                            <img src={tImage} width={20} alt="profil" />
                          +34 722385895</li>
-                        <li><a href="https://www.linkedin.com/in/arturo-elmer-prado-romero-b80432119/"><img src={lImage} width={20} /> </a>  linkedin</li>
+                        <li><a href="https://www.linkedin.com/in/arturo-elmer-prado-romero-b80432119/"><img src={lImage} width={20} alt="profil" /> </a>  linkedin</li>
 
 
                     </ul>
                     <br/>
                     <div className="container text-center" >
-                        <img src={jsImage} height={40} className="bg-light" />
-                        <img src={mongoImage} height={40} />
-                        <img src={JImage} height={40} className="bg-light" />
-                        <img src={phpImage} height={40} />
+                        <img src={jsImage} height={40} className="bg-light" alt="profil" />
+                        <img src={mongoImage} height={40} alt="profil" />
+                        <img src={JImage} height={40} className="bg-light" alt="profil" />
+                        <img src={phpImage} height={40} alt="profil" />
                     </div>
 
                 </Col>

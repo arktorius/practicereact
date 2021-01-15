@@ -38,45 +38,47 @@ class Emer extends React.Component {
             Memes
         </Modal.Header>
           <Modal.Body className="bg-dark" >
+            <p>
+              <img
+                className="d-block  ml-auto mr-auto w-100"
 
-            <img
-              className="d-block  ml-auto mr-auto"
-              width="387px"
-              onClick={this.abrirModal}
-              src={imageM1}
-              alt="kimmeme"
+                onClick={this.abrirModal}
+                src={imageM1}
+                alt="kimmeme"
 
-            >
-            </img> <hr/>
+              >
+              </img> <hr />
 
-            <img
-              className="d-block  ml-auto mr-auto"
-              width="387px"
-              onClick={this.abrirModal}
-              src={imageM2}
-              alt="pushmeme"
+              <img
+                className="d-block  ml-auto mr-auto w-100"
 
-            >
-            </img><hr/>
+                onClick={this.abrirModal}
+                src={imageM2}
+                alt="pushmeme"
 
-            <img
-              className="d-block  ml-auto mr-auto"
-              width="387px"
-              src={imageM3}
-              onClick={this.abrirModal}
-              alt="homermeme"
+              >
+              </img><hr />
 
-            >
-            </img><hr/>
-            <img
-              className="d-block  ml-auto mr-auto"
-              width="387px"
-              src={imageM4}
-              onClick={this.abrirModal}
-              alt="meme"
+              <img
+                className="d-block  ml-auto mr-auto w-100"
 
-            >
-            </img>
+                src={imageM3}
+                onClick={this.abrirModal}
+                alt="homermeme"
+
+              >
+              </img><hr />
+              <img
+                className="d-block  ml-auto mr-auto w-100"
+
+                src={imageM4}
+                onClick={this.abrirModal}
+                alt="meme"
+
+              >
+
+              </img>
+            </p>
           </Modal.Body>
 
           <Modal.Footer className="bg-dark">

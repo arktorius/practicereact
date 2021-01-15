@@ -91,7 +91,7 @@ class CurriculumVitae extends React.Component {
                             <li>
                                 <b> <a href="https://cibernarium.barcelonactiva.cat/es/itacademy" style={{ color: 'white' }}>IT Academy</a></b>
                                 <br />
-                                <b>(2019-2020)</b>=>
+                                <b>(2019-2020)=></b>
                         Desarrollo Web Back/End.
 
                             </li><br />

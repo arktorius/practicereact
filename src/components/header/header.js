@@ -16,12 +16,12 @@ class Header extends React.Component {
     return <div id="homebar"> 
     <Navbar  collapseOnSelect expand="lg" bg="dark" variant="dark" className="fixed-top py-0">
       <Navbar.Brand href="#home">
-        <Scroll.Link to="homebar" smooth={true} offset={-50}>
+        <Scroll.Link to="homebar" smooth={true} offset={-50}> 
           <img
-            className="d-block  ml-auto mr-auto"
+            className=" ml-auto mr-auto"
             height="30px"
             src={LogoT}
-            alt="First slide" />
+            alt="First slide" /> Arktorius
         </Scroll.Link>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="responsive-navbar-nav" />
